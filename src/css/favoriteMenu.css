@@ -1,0 +1,65 @@
+.favorite-page {
+  background-color: #faf7f2;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.p-red {
+  font-family: "Satisfy", cursive;
+  color: #ce2829;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.p-black {
+  font-family: "Quattrocento", serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.favoriteBtns {
+  padding: 0.4rem 1.2rem;
+  border: none;
+  border-radius: 3rem;
+  background-color: #ffffff;
+}
+.favoriteBtns:hover {
+  background-color: rgba(10, 10, 10, 0.9);
+  color: white;
+}
+
+.favoriteBtns.active {
+  background-color: hwb(0 0% 100%);
+  color: white;
+  border-radius: 3rem;
+  padding: 0.4rem 1.2rem;
+  border: none;
+}
+
+.favoriteBtn-kore {
+  background-image: url("../Assets/adv-aseets/icons/1.svg");
+  background-color: white;
+}
+.favoriteBtn-pizza {
+  background-image: url("../Assets/adv-aseets/icons/2.svg");
+  background-color: white;
+}
+.favoriteBtn-hamburger {
+  background-image: url("../Assets/adv-aseets/icons/3.svg");
+  background-color: white;
+}
+.favoriteBtn-kızartma {
+  background-image: url("../Assets/adv-aseets/icons/4.svg");
+  background-color: white;
+}
+.favoriteBtn-fastfood {
+  background-image: url("../Assets/adv-aseets/icons/5.svg");
+  background-color: white;
+}
+.favoriteBtn-gazliIcecek {
+  background-image: url("../Assets/adv-aseets/icons/6.svg");
+  background-color: white;
+}

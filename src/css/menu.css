@@ -1,0 +1,101 @@
+.menu-page {
+  background-color: white;
+  padding: 1rem;
+}
+
+.btns {
+  padding: 1.2rem;
+  background-position: center;
+  border: none;
+}
+
+.btn-kore {
+  background-image: url("../Assets/adv-aseets/icons/1.svg");
+  background-color: white;
+}
+.btn-pizza {
+  background-image: url("../Assets/adv-aseets/icons/2.svg");
+  background-color: white;
+}
+.btn-hamburger {
+  background-image: url("../Assets/adv-aseets/icons/3.svg");
+  background-color: white;
+}
+.btn-kızartma {
+  background-image: url("../Assets/adv-aseets/icons/4.svg");
+  background-color: white;
+}
+.btn-fastfood {
+  background-image: url("../Assets/adv-aseets/icons/5.svg");
+  background-color: white;
+}
+.btn-gazliIcecek {
+  background-image: url("../Assets/adv-aseets/icons/6.svg");
+  background-color: white;
+}
+
+.highlight-page,
+.menuCard-page {
+  background-color: #faf7f2;
+}
+
+.bg-card1 {
+  background-image: url("../Assets/adv-aseets/kart-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20rem;
+  padding: 1rem;
+}
+
+.bg-card2 {
+  background-image: url("../Assets/adv-aseets/kart-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20rem;
+  padding: 1rem;
+}
+.bg-card3 {
+  background-image: url("../Assets/adv-aseets/kart-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  width: 20rem;
+  padding: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 0.2rem;
+  row-gap: 1rem;
+  justify-content: space-evenly;
+  padding: 4rem;
+}
+
+.grid-item1 {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.grid-item2,
+.grid-item {
+  width: 25rem;
+  grid-column: 2 / span 3;
+}
+
+.menu-cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.btn-link {
+  border: 2px solid white;
+  border-radius: 2.5rem;
+  background-color: white;
+  padding: 0.75rem 2.5rem;
+}

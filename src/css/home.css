@@ -1,0 +1,26 @@
+.home-page {
+  background-image: url("../Assets/mvp-banner.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.p-white {
+  font-family: "Barlow", sans-serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.p-yellow {
+  font-family: "Satisfy", cursive;
+  color: #fdc913;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
