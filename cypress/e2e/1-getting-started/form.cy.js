@@ -8,6 +8,7 @@ describe("form cypress testi", () => {
     cy.get('[data-cy="pizzabtn"]').click();
     cy.get('[data-cy="1"]').click();
     cy.get("select").select("kalın");
+    // cy.get('[data-cy="radioButton"]').first().check();
     // cy.get('[data-cy="check"]').check(); //tüm checkboxları clickler
     cy.get('[data-cy="2"]').uncheck();
     cy.get('[data-cy="3"]').uncheck();

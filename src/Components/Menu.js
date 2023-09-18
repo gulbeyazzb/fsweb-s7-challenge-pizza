@@ -8,71 +8,59 @@ import fastfood from "../Assets/adv-aseets/icons/5.svg";
 import gazliIcecek from "../Assets/adv-aseets/icons/6.svg";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
-const Menu = ({ clickHandler }) => {
+const Menu = () => {
   return (
     <div>
       <div className=" favorite-page">
         <div className="container">
           <div className="container py-4 d-flex justify-content-evenly ">
-            <NavLink to="/secenekler">
-              <button
-                onClick={clickHandler}
-                name="kore"
-                className=" favoriteBtns  me-2 "
-              >
-                <img name="img" src={koreLogo} className="me-1" />
-                Kore
-              </button>
+            <NavLink
+              to="/secenekler"
+              name="kore"
+              className=" favoriteBtns  me-2 "
+            >
+              <img name="img" src={koreLogo} className="me-1" />
+              Kore
             </NavLink>
-            <NavLink to="/secenekler">
-              <button
-                onClick={clickHandler}
-                name="pizza"
-                className="favoriteBtns me-2 "
-              >
-                <img name="img" src={pizza} className="me-1" />
-                Pizza
-              </button>
+            <NavLink
+              to="/secenekler"
+              name="pizza"
+              className="favoriteBtns me-2 "
+            >
+              <img name="img" src={pizza} className="me-1" />
+              Pizza
             </NavLink>
-            <NavLink to="/secenekler">
-              <button
-                onClick={clickHandler}
-                name="burger"
-                className="favoriteBtns  me-2 "
-              >
-                <img name="img" src={burger} className="me-1" />
-                Burger
-              </button>
+            <NavLink
+              to="/secenekler"
+              name="burger"
+              className="favoriteBtns  me-2 "
+            >
+              <img name="img" src={burger} className="me-1" />
+              Burger
             </NavLink>
-            <NavLink to="/secenekler">
-              <button
-                onClick={clickHandler}
-                name="Kızartmalar"
-                className="favoriteBtns  me-2 "
-              >
-                <img name="img" src={kızartma} className="me-1" />
-                Kızartmalar
-              </button>
+            <NavLink
+              to="/secenekler"
+              name="Kızartmalar"
+              className="favoriteBtns  me-2 "
+            >
+              <img name="img" src={kızartma} className="me-1" />
+              Kızartmalar
             </NavLink>
-            <NavLink to="/secenekler">
-              <button
-                onClick={clickHandler}
-                name="FastFood"
-                className="favoriteBtns  me-2 "
-              >
-                <img name="img" src={fastfood} className="me-1" />
-                Fast Food
-              </button>
+            <NavLink
+              to="/secenekler"
+              name="FastFood"
+              className="favoriteBtns  me-2 "
+            >
+              <img name="img" src={fastfood} className="me-1" />
+              Fast Food
             </NavLink>
-            <NavLink to="/secenekler">
-              <button
-                onClick={clickHandler}
-                name="gazlıIcecek"
-                className="favoriteBtns  me-2 "
-              >
-                <img name="img" src={gazliIcecek} className="me-1" />
-                Gazlı İcecek
-              </button>
+            <NavLink
+              to="/secenekler"
+              name="gazlıIcecek"
+              className="favoriteBtns  me-2 "
+            >
+              <img name="img" src={gazliIcecek} className="me-1" />
+              Gazlı İcecek
             </NavLink>
           </div>
         </div>

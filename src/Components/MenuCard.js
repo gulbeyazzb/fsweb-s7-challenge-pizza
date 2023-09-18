@@ -14,8 +14,11 @@ const MenuCard = ({ type }) => {
   }, [type]);
 
   return (
-    <div>
-      <div className="pb-5 menuCard-page">
+    <div id="food-card">
+      <div
+        style={{ backgroundColor: "#faf7f2" }}
+        className="pb-5 menuCard-page"
+      >
         <div className="container">
           <div class="menu-cards">
             {filterMenu.map((menuItem, index) => (

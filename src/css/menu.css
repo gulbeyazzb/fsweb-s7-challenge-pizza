@@ -1,44 +1,3 @@
-.menu-page {
-  background-color: white;
-  padding: 1rem;
-}
-
-.btns {
-  padding: 1.2rem;
-  background-position: center;
-  border: none;
-}
-
-.btn-kore {
-  background-image: url("../Assets/adv-aseets/icons/1.svg");
-  background-color: white;
-}
-.btn-pizza {
-  background-image: url("../Assets/adv-aseets/icons/2.svg");
-  background-color: white;
-}
-.btn-hamburger {
-  background-image: url("../Assets/adv-aseets/icons/3.svg");
-  background-color: white;
-}
-.btn-kızartma {
-  background-image: url("../Assets/adv-aseets/icons/4.svg");
-  background-color: white;
-}
-.btn-fastfood {
-  background-image: url("../Assets/adv-aseets/icons/5.svg");
-  background-color: white;
-}
-.btn-gazliIcecek {
-  background-image: url("../Assets/adv-aseets/icons/6.svg");
-  background-color: white;
-}
-
-.highlight-page,
-.menuCard-page {
-  background-color: #faf7f2;
-}
-
 .bg-card1 {
   background-image: url("../Assets/adv-aseets/kart-1.png");
   background-repeat: no-repeat;
@@ -91,11 +50,4 @@
 
 .card-link {
   text-decoration: none;
-}
-
-.btn-link {
-  border: 2px solid white;
-  border-radius: 2.5rem;
-  background-color: white;
-  padding: 0.75rem 2.5rem;
 }

@@ -18,7 +18,6 @@ const OrderConfirmed = () => {
     margin-bottom: 0;
     font-size: 2rem;
   `;
-
   return (
     <Section>
       <div className="container pt-4">

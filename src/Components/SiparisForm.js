@@ -38,7 +38,7 @@ export default function SiparisForm({ urun }) {
   });
 
   const siparisFormSchema = Yup.object().shape({
-    boyut: Yup.string().required("Boyut Seçiniz!"),
+    // boyut: Yup.string().required("Boyut Seçiniz!"),
     hamur: Yup.string().required("Hamur Kalınlığını Seçmediniz!"),
     siparisNotu: Yup.string(),
     ekMalzemeler: Yup.array().max(10, "En fazla 10 adet malzeme seçiniz!"),
@@ -59,6 +59,7 @@ export default function SiparisForm({ urun }) {
       Yup.reach(siparisFormSchema, "ekMalzemeler")
         .validate(malzemeler)
         .then((valid) => {
+          //geçerli mi?geçerliyse hatayı sil.
           if (errors.ekMalzemeler) setErrors({ ...errors, ekMalzemeler: "" });
         })
         .catch((err) => setErrors({ ...errors, ekMalzemeler: err.errors[0] }));
@@ -81,6 +82,7 @@ export default function SiparisForm({ urun }) {
       history.push("/siparis-alindi");
     });
   }
+
   useEffect(() => {
     console.log(errors);
     siparisFormSchema.isValid(formData).then((valid) => setValid(valid));
@@ -135,6 +137,7 @@ export default function SiparisForm({ urun }) {
                 S
               </label>
               <input
+                data-cy="radioButton"
                 onChange={inputChangeHandler}
                 id="radio-M"
                 className="boyut-input"
@@ -146,6 +149,7 @@ export default function SiparisForm({ urun }) {
                 M
               </label>
               <input
+                data-cy="radioButton"
                 onChange={inputChangeHandler}
                 id="radio-L"
                 className="boyut-input"

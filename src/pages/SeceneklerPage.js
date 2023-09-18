@@ -3,6 +3,7 @@ import Footer from "../layout/Footer";
 import MenuCard from "../Components/MenuCard";
 import { useState } from "react";
 import Menu from "../Components/Menu";
+import FavoriteMenu from "../Components/FavoriteMenu";
 
 export default function SeceneklerPage() {
   const [type, setType] = useState("");
@@ -11,13 +12,10 @@ export default function SeceneklerPage() {
     e.target.name === "img"
       ? setType(e.target.parentNode.name)
       : setType(e.target.name);
-    e.target.name === "img"
-      ? (e.target.parentNode.className = "active")
-      : (e.target.className = "active");
   };
   return (
     <div>
-      <Menu clickHandler={clickHandler} />
+      <FavoriteMenu clickHandler={clickHandler} />
       <MenuCard type={type} />
       <Footer />
     </div>

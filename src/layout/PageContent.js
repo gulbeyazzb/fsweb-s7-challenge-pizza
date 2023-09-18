@@ -4,9 +4,6 @@ import HomePage from "../pages/HomePage";
 import SiparisPage from "../pages/SiparisPage";
 import SeceneklerPage from "../pages/SeceneklerPage";
 import Orderconfirmed from "../Components/Orderconfirmed";
-import { useParams } from "react-router-dom";
-import { MenuList } from "../helper/MenuList";
-import { useEffect, useState } from "react";
 
 const PageContent = () => {
   return (

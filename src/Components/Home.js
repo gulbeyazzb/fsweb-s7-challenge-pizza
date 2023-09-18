@@ -20,15 +20,17 @@ const Home = () => {
           <p className="p-yellow">Lezzeti Kaçırma</p>
           <p className="p-white">KOD ACIKTIRIR</p>
           <p className="p-white">PİZZA DOYURUR</p>
-          <Link to="/secenekler" exact>
-            <button className="btn btn-warning rounded-pill px-5">
-              ACIKTIM
-            </button>
+          <Link
+            to="/secenekler"
+            className="btn btn-warning rounded-pill px-5"
+            exact
+          >
+            ACIKTIM
           </Link>
         </div>
       </div>
       <div>
-        <Menu clickHandler={clickHandler} />
+        <Menu />
       </div>
       <div>
         <HighlightMenu />
